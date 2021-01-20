@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap');
+
+
+body{
+    padding: 20px;
+    background-color: whitesmoke;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+#nav-bar{
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+.nav-link{    
+    float: right;  
+    padding: 10px;   
+}
+
+#header-img{    
+    width: 200px;
+    padding: 10px;        
+}
+
+#form{    
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+    align-items: center; 
+}
+
+
+#submit{
+    background-color: orange;
+    margin-top: 20px;
+    width: 100px;
+    border: none;
+    padding: 6px;
+}
+
+#feature{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;   
+    padding-top: 50px; 
+}
+
+
+#first{
+    text-align: left;     
+    font-weight: 600;
+}
+
+#second{
+    text-align: left;  
+    font-weight: 200;
+}
+
+#video-content{
+    text-align: center;
+}
+
+
+.price{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;   
+    padding-top: 50px; 
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;      
+    margin: 10px;      
+}
+.header-box{    
+    background-color:lightgray;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;  
+}
+
+.header-content{
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    font-size: 1rem;
+}
+
+#price{
+    text-align: center;
+    font-weight: 800;
+}
+
+#select{
+    background-color: orange;
+    margin-top: 10px;
+    border: none;                   
+    bottom:0;                          
+    right:0;   
+    padding: 6px;
+}
+
+@media (min-width: 700px) { 
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 300px;
+        border: 1px solid black;      
+        margin: 10px;     
+        font-size: smaller; 
+    }
+}
